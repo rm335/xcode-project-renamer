@@ -11,7 +11,7 @@ Script goes through all the files and directories recursively, including Xcode p
 
 ```bash
 # download script and make it executable
-$ curl https://raw.githubusercontent.com/rm335/xcode-project-renamer/master/rename.swift && chmod +x rename.swift
+$ curl https://raw.githubusercontent.com/rm335/xcode-project-renamer/master/rename.swift -o rename.swift && chmod +x rename.swift
 
 # run script
 $ ./rename.swift "$OLD_PROJECT_NAME" "$NEW_PROJECT_NAME"
