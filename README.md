@@ -20,5 +20,10 @@ $ ./rename.swift "$OLD_PROJECT_NAME" "$NEW_PROJECT_NAME"
 $ rm rename.swift
 ```
 
+## One line usage
+```bash
+curl https://raw.githubusercontent.com/rm335/xcode-project-renamer/master/rename.swift -o rename.swift && chmod +x rename.swift && ./rename.swift "$OLD_PROJECT_NAME" "$NEW_PROJECT_NAME" && rm rename.swift
+```
+
 ## License
 This code is released under the MIT license. See [LICENSE](LICENSE) for details.
